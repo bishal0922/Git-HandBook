@@ -101,19 +101,19 @@ If there's a folder which is not a git repository
 ### Merge Branches
 Inside the repo (local)
 
-```Git branch``` : shows all the branches
+```git branch``` : shows all the branches
 
-```Git checkout master``` : switches to master branch
+```git checkout master``` : switches to master branch
     
-```Git merge feature-branch-name``` : merges the feature branch to the master branch
+```git merge feature-branch-name``` : merges the feature branch to the master branch
     
-```Git branch -d feature-branch-name``` : deletes the feature branch
+```git branch -d feature-branch-name``` : deletes the feature branch
     
-```Git push origin master``` : pushes the changes to the remote repo
+```git push origin master``` : pushes the changes to the remote repo
   
-```Git merge feature-branch-name``` : merges the feature branch to the master branch
+```git merge feature-branch-name``` : merges the feature branch to the master branch
 
-```Git branch -d feature-branch-name``` : deletes the feature branch
+```git branch -d feature-branch-name``` : deletes the feature branch
 (shows the branches q to exit)
 
 ```git checkout``` : switch between branches
@@ -128,24 +128,24 @@ Inside the repo (local)
 
 ```git merge feature-11-newfile```: merge into the master branch
 
-```Git status```: shows changes committed  or not
+```git status```: shows changes committed  or not
 
-```Git push```: tell which branch on github you want to push to 
+```git push```: tell which branch on github you want to push to 
 
 
-```Git pull```: get the changes in the branch
+```git pull```: get the changes in the branch
 
-```Git branch```: it’ll still show the branch
+```git branch```: it’ll still show the branch
 
-```Git branch -d feature-11-newfile ```: deletes the file
+```git branch -d feature-11-newfile ```: deletes the file
 
 **Merge conflicts** are better off solved within the code editor or the browser
 
-```Git log```: show log of all commits (important to have good commit messages). You can find hashes off the commits
+```git log```: show log of all commits (important to have good commit messages). You can find hashes off the commits
 
-```Git reset *hash*```: unstage everything
+```git reset *hash*```: unstage everything
 
-```Git reset --hard *hash*```: Unstage an completely remove
+```git reset --hard *hash*```: Unstage an completely remove
 
 **Forking** makes a new branch and copies the review 
 
