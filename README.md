@@ -149,6 +149,40 @@ Inside the repo (local)
 
 **Forking** makes a new branch and copies the review 
 
+```git
+#https://learngitbranching.js.org/?locale=en_US
+#githowto.com
+
+#initializing a folder as repo with main branch renamed
+git init --initial-branch=booger
+
+#track everything
+git status
+
+#to view commit history (:q)
+git log
+
+#commiting a new file to a repo
+#ex directory: yolo/foo.txt where git init has been called
+#to commit foo.txt to the repo
+git add . (stage all files)
+OR
+git add foo.txt (stage specific file)
+
+git commit -m "first commit"
+
+#branch
+git branch "new branch"
+#and go into branch
+git checkout "new branch" OR git switch "new branch" (latter is experimental)
+
+#or create a new branch and go into it on same command
+git checkout -b "new branch"
+
+
+```
+
+
 ---
 ### The End 
 
